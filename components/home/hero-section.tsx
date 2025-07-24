@@ -15,14 +15,14 @@ export default function HeroSection() {
       subtitle: "Britannia's Classic Biscuits",
       description:
         "Enjoy the perfect blend of taste and tradition with our iconic biscuits that have delighted generations.",
-      image: "/placeholder.svg?height=1080&width=1920",
+      image: "",
       color: "bg-britannia-blue",
     },
     {
       title: "Baked with Love",
       subtitle: "Premium Quality Ingredients",
       description: "Every bite is crafted with care using the finest ingredients for a truly delightful experience.",
-      image: "/placeholder.svg?height=1080&width=1920",
+      image: "",
       color: "bg-britannia-gold",
     },
     {
@@ -86,7 +86,7 @@ export default function HeroSection() {
                   Explore Products
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </Button>
-                <Button variant="outline" className="text-white border-white hover:bg-white/10">
+                <Button variant="outline" className="text-white bg-black border-white hover:bg-white/10">
                   View Recipes
                 </Button>
               </div>
